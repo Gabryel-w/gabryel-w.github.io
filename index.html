@@ -8,32 +8,32 @@
     <link rel="stylesheet" href="src/CSS/style.css">
     <link rel="stylesheet" href="src/CSS/bootstrap.min.css">
 
-    <title>Gabryel Willers</title>
+    <title>GabryelW-Dev</title>
 </head>
 
 <body>
 
     <header>
-        <nav class="navbar navbar-expand-lg bg-light fixed-top">
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top ">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#">G.W</a>
+                <a class="navbar-brand" href="./index.html">G.W</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav">
+                <div class="collapse navbar-collapse justify-content-end text" id="navbarNav">
+                    <ul class="navbar-nav margem">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Início</a>
+                            <a class="nav-link active " href="#Home">Inico</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Sobre</a>
+                            <a class="nav-link active" href="#Sobre">Sobre</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Projetos</a>
+                            <a class="nav-link active" href="#Projetos">Projetos</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Contato</a>
+                            <a class="nav-link active" href="#Contato">Contato</a>
                         </li>
                     </ul>
                 </div>
@@ -44,37 +44,51 @@
 
 
     <div class="main-image">
-        <section id="home">
-            <div class="home-info">
-                <h2>Olá, sou o Gabryel</h2>
-                <span class="home-position">Desenvolvedor Front-End</span>
-                <span class="home-resume">
-                    Cursando atualmente Ciência da computação,
-                    tenho experiência em desenvolvimento Web
-                    (React, JS, HTML, CSS).
-                </span>
-                <button>
-                    <a href="#contato">Contate-me</a>
-                </button>
-            </div>
-            <div class="home-img">
-                <img src="./src/Images/Avatar.png" alt="Avatar">
+        <section id="Home" class="home py-5">
+            <div class="container-lg">
+                <div class="row  min-vh-100 align-items-center align-content-center">
+                    <div class="col-md-6 mt-5 mt-md-0">
+                        <div class="home-img text-center imagem">
+                            <img class="img-fluid mw-100" src="./src/Images/Avatar.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-md-6 mt-5 mt-md-0 order-md-first">
+                        <div class="home-text">
+                            <p class="mb-1 font-banner">Olá, eu sou o </p>
+                            <h1 class="text-primary text-uppercase fs-1 fw-bold digitacao">Desenvolvedor-Web</h1>
+                            <h2 class="fs-4 font-banner">Gabryel Willers</h2>
+                            <p class="mt-4 font-banner">Atualmente Cursando o curso de Ciência da Computação,
+                                <br>
+                                tenho Experiência em (React, HTML, CSS, JS)
+                            </p>
+                            <a href="https://github.com/Gabryel-w" class="btn btn-danger"><img
+                                    src="src/Images/icons/Github.png" alt="GitHub">
+                                Github</a>
+                            <a href="https://www.linkedin.com/in/gabryel-willers-124426238/" class="btn btn-primary"> <img class="icon-img" src="src/Images/icons/Linkedin.png" alt="Linkedin">
+                                Linkedin</a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
     </div>
 
 
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
+    <section id="Projetos">
+        <div class="container">
+            <div class="row align-items-center align-content-center">
+                <div class="col">
+                    <h1 class="text-uppercase fs-1 text-center fw-bold mt-5 mb-5">Meus Projetos</h1>
+                </div>
+            </div>
+        </div>
+    </section>
 
 
 
 
-    <script src="src/Scripts/navbar.js"></script>
+
+
     <script src="./src/Scripts/bootstrap.bundle.min.js"></script>
 </body>
 
