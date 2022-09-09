@@ -27,7 +27,7 @@ html {
   position: relative;
   background: url(../Images/Banner.png) no-repeat center;
   background-size: cover;
-  height: 760px;
+  height: 700px;
   overflow: hidden;
   z-index: 1;
 
