@@ -27,7 +27,7 @@ html {
   position: relative;
   background: url(../Images/Banner.png) no-repeat center;
   background-size: cover;
-  height: 700px;
+  height: 680px;
   overflow: hidden;
   z-index: 1;
 
@@ -147,4 +147,108 @@ section#home {
 
 .home-text a{
   margin-left: 10px;
+}
+
+
+.card{
+  width: 90%;
+  text-align: center;
+  margin-bottom: 10px;
+  border-radius: 1rem;
+  border: 1px solid transparent;
+  backdrop-filter: blur(1rem);
+  box-shadow: 1.3rem 1.3rem 1.3rem rgba(0, 0, 0, 0.5);
+}
+
+
+.contact{
+  max-width: 800px;
+  margin: 50px auto;
+  position: relative;
+  box-shadow: 0 10px 30px 0px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+}
+
+.contact .title{
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 3em;
+  line-height: 48px;
+  padding-bottom: 30px;
+  color: #5b70ce;
+  background-clip: border-box;
+  background-image: linear-gradient( 109.6deg,  rgb(59, 75, 92) 11.2%, rgb(14, 50, 212) 91.2% );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.contact-form .form-field{
+  position: relative;
+  margin: 32px 0;
+
+}
+
+.contact-form .input-text{
+  display: block;
+  width: 100%;
+  height: 36px;
+  border-width: 0 0 2px 0;
+  border-color: rgb(73, 88, 221);
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 400;
+}
+
+.contact-form .input-text:focus{
+  outline: none;
+}
+
+.contact-form .label{
+  position: absolute;
+  left: 20px;
+  transform: translateY(-24px);
+  bottom: 11px;
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 400;
+  color:black;
+  cursor: text;
+  text-transform: capitalize;
+  transition: transform 0.2s ease-in-out;
+}
+
+.contact-form .submit-btn{
+  display: inline-block;
+  background-color: #5543ca;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 16px;
+  padding: 8px 16px;
+  border:none;
+  width: 200px;
+  cursor: pointer;
+  height: 50px;
+  border-radius: 15px;
+}
+
+.submit-btn:hover{
+  color: rgb(233, 227, 227);
+  background-color: rgb(57, 59, 163);
+}
+
+
+footer{
+  background-color: rgb(49, 49, 49);
+  color: white;
+  height: auto;
+  width: 100%;
+  padding-top: 40px;
+}
+
+.footer-bottom{
+  width: 100%;
+  padding: 20px 0;
+  text-align: center;
 }
